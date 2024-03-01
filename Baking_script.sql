@@ -1,5 +1,5 @@
 use level2
-#Take the overall view
+#Take the total applications the customers have used
 select 
 	ph1.customer_id,
 	ph1.prod_ca,
