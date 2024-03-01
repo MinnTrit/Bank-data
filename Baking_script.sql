@@ -71,7 +71,7 @@ where prod_upl = 1) as UPL
 on ph1.customer_id = UPL.customer_id
 
 
-#Calculatin the matrix for the checking account and the application 
+#Calculating the matrix for the checking account and the application 
 select distinct 
 	Checking_Account, 
 	Application,
