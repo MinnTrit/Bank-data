@@ -1,5 +1,5 @@
 use level2
-
+#Take the overall view
 select 
 	ph1.customer_id,
 	ph1.prod_ca,
@@ -69,7 +69,6 @@ left join aum a
 on ph.customer_id = a.customer_id 
 where prod_upl = 1) as UPL 
 on ph1.customer_id = UPL.customer_id
-where ph1.customer_id = 1054252
 
 
 #Calculatin the matrix for the checking account and the application 
